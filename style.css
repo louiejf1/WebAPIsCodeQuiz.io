@@ -1,0 +1,57 @@
+
+/* 
+id = #
+Class = .*/
+
+body {
+  background-color: #f5fffa;
+}
+#navP1, #countdown {
+  color: #f5fffa;
+  width: 20vw;
+  text-align: center;
+}
+#mainDivContainer {
+    height: auto;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blue; */
+}
+#startBtn {
+  width: 20vw;
+}
+
+
+.divCol1, .divCol2, .divCol3, .divCol4, .divCol5 {
+    width: 100%;
+    text-align: center;
+}
+
+.divCol2 {
+  margin-bottom: 20px;
+}
+
+#quizHeader {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.myFooter {
+    background-color: rgb(175, 191, 183);
+}
+
+
+@media (min-width: 501px) {
+  .respBtn {
+    width: 30vw;
+    margin: 5px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .respBtn {
+    width: 50vw;
+    margin: 5px;
+  }
+}
