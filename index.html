@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="./reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Nav -->
+    <div id='navBarDiv' class="navbar navbar-light bg-dark">
+        <p id='navP1' class="navbar-brand">CodeQuiz</p>
+
+        <button id="startBtn" type="button" class="btn btn-light bg-success" id='test'> Start</button>
+
+        <p id="countdown" id='navP1' class="navbar-brand">Timer</p>
+
+    </div>
+
+    <!-- Divs -->
+    <div id="mainDivContainer" class="container-lg">
+
+        <div class="row">
+
+            <div class='divCol1' class="col">
+                <h1 id='quizHeader'>Quiz</h1>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class='divCol2' class="col">
+                <h3 id='question'>Click start to begin!</h3>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class='divCol3' class="col">
+                <button id="aBtn" type="button" class="btn btn-dark respBtn" id='test'>A</button>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class='divCol4' class="col">
+                <button id="bBtn" type="button" class="btn btn-dark respBtn" id='test'>B</button>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class='divCol5' class="col">
+                <button id="cBtn" type="button" class="btn btn-dark respBtn" id='test'>C</button>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class='divCol5' class="col">
+                <button id="dBtn" type="button" class="btn btn-dark respBtn" id='test' >D</button>
+            </div>
+
+        </div> 
+        <div class="row">
+
+            <div class='divCol5' class="col">
+                <p id="score" class="score" ></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id='footerContainer' class="page-footer font-small blue">
+
+        <div class="footer-copyright myFooter text-center py-3 fixed-bottom">© 2020 Copyright:
+            <a href="#"> Ludwig Flores</a>
+        </div>
+
+    </footer>
+
+    <!-- End -->
+</body>
+
+</html>
